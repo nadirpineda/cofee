@@ -1,0 +1,117 @@
+* { 
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box ;
+    font-weight: bold;
+}
+
+.baner { 
+    display: flex;
+    background-color:#1b1717; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    
+    
+}
+
+.menuservicios {    
+    list-style: none;    
+    color:whitesmoke;
+    display: flex;
+    color:#f5b041;
+    font-size: 1.5rem;
+    
+}
+
+#tel {        
+    color:white;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.destacados:hover {
+    color:#cd5c5c;
+}
+
+li {        
+    padding: 1rem;
+}
+
+main {
+   background-image: url("../imagenes/fondo.jpg");
+   width: 100%;
+   height:500px;
+   padding-top: 100px;
+
+  
+   
+
+ 
+  
+}
+
+h1 {    
+    color:#e76e22;
+    width:100%;
+    align-items: center;
+    font-weight: bold;
+    font-size: 5rem;
+    padding-bottom: 30px;
+ 
+}
+
+h3 {    
+    color:white;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 30px;
+}
+
+#bot-iniciar {    
+    color:white;
+    background-color: #ba4a00;
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: normal;
+    
+    
+    
+}
+
+#bot-cursos {    
+    color:#f39c12;
+    background-color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: normal;
+ 
+    
+
+}
+
+section {    
+    text-align: center;
+
+   
+ }
+
+ #bot-iniciar:hover {    
+    cursor: pointer;
+}
+
+
+#bot-cursos:hover {  
+    cursor: pointer;  
+}
+
+
+
+
+ 
+
+
+
+
