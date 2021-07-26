@@ -1,9 +1,13 @@
 * { 
     margin: 0%;
-    padding: 0%;
     box-sizing:border-box ;
-    font-weight: bold;
+    
 }
+
+header { 
+    position:relative;
+} 
+
 
 .baner { 
     display: flex;
@@ -11,13 +15,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;  
+    position: fixed;
+    width:100%;
+    
     
     
 }
 
 .menuservicios {    
     list-style: none;    
-    color:whitesmoke;
     display: flex;
     color:#f5b041;
     font-size: 1.5rem;
@@ -41,22 +47,16 @@ li {
 }
 
 main {
-   background-image: url("../imagenes/fondo.jpg");
+   background-image: url("../imagenes/fondooscuro.png");
+   background-attachment: fixed;
    width: 100%;
-   height:500px;
-   padding-top: 100px;
-
-  
-   
-
- 
+   height:650px;
+   padding-top: 200px;
   
 }
 
 h1 {    
     color:#e76e22;
-    width:100%;
-    align-items: center;
     font-weight: bold;
     font-size: 5rem;
     padding-bottom: 30px;
@@ -75,7 +75,8 @@ h3 {
     background-color: #ba4a00;
     font-weight: bold;
     font-size: 2rem;
-    font-style: normal;
+    margin: 30px;
+    padding: 15px 30px;
     
     
     
@@ -86,7 +87,7 @@ h3 {
     background-color: white;
     font-weight: bold;
     font-size: 2rem;
-    font-style: normal;
+    
  
     
 
@@ -96,9 +97,9 @@ section {
     text-align: center;
 
    
- }
+}
 
- #bot-iniciar:hover {    
+#bot-iniciar:hover {    
     cursor: pointer;
 }
 
@@ -107,7 +108,13 @@ section {
     cursor: pointer;  
 }
 
+#div-botones {  
+    padding:30px; 
+}
 
+i {  
+    font-style: normal;
+}
 
 
  
