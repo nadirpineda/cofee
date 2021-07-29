@@ -27,6 +27,7 @@ h3 {
 
 li {        
     padding: 1rem;
+    list-style: none; /*NADIR*/
 }
 
 li:hover {
