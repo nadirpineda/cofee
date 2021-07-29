@@ -5,6 +5,11 @@
 }
 
 /*Estilos generales de textos*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 h1 {    
     color:#e76e22;
     font-weight: bold;
@@ -33,9 +38,6 @@ i {
 }
 
 
-section {    
-    text-align: center;
-}
 
 /*Estilos para el header*/
 header { 
@@ -51,6 +53,11 @@ header {
     flex-direction: column;  
     position: fixed;
     width:100%;   
+}
+
+
+#sc-banner {    
+    text-align: center;
 }
 
 .menuservicios {    
@@ -111,13 +118,92 @@ main {
 
 
 /*Estilos para la sección de métodos de café*/
-
-.div-descripcion {
-    display: flex;
+/*La sección ocupa solo el 70% de la pantalla y está centrada horizontalmente"*/
+#sc-metodos {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-size: 18px;
 }
 
- 
+.tit-metodos {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 3rem;
+    color: #ba4a00;    
+}
+
+.sub-metodos {
+    color: #e76e22;
+    margin-bottom: 1rem;
+}
+
+.img-metodo {
+    width: 300px;
+    height: auto;
+    margin-left: 2rem;
+    /*align-self: center;*/
+    float: right;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.div-descripcion {
+    display: inline;
+}
+
+.div-descripcion p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5em;
+    padding-left: 1rem;
+    padding-right: 1rem;    
+}
+
+.div-preparacion {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: rgb(200,200,200);
+    /*padding: 1rem;*/
+    border-radius: 2rem;
+}
+
+.div-preparacion li {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.div-preparacion li::marker {
+    content: '\2615'
+}
+
+@media (max-width: 850px) {
+    #sc-metodos {
+        width: 595px;
+    }    
+}
+
+@media (max-width: 600px) {
+#sc-metodos {
+    width: 100%;
+
+}
+
+.img-metodo {
+    width: 100%;
+    margin-left: 0;
+}
+
+.div-descripcion {
+    flex-direction: column;
+}
 
 
-
-
+}
